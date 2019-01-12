@@ -1,0 +1,71 @@
+.body{
+  height: 200px;
+  background-color: #c1b49cb8;
+  color: white;
+}
+.header{
+  height: 260px;
+
+}
+.div-header{
+  height: inherit;
+  width: 100%;
+  position: fixed;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li{
+  float: left;
+  height: 40px;
+  width: 273px;
+  text-align: center;
+  line-height: 40px;
+  background-color: black;
+  opacity: .7;
+  font-size: 20px;
+}
+ul li a{
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+ul li a:hover{
+  background-color: green;
+}
+.ul-header>li>a{
+  background-color: #10422f;
+}
+ul li ul li{
+  display: none;
+}
+ul li:hover ul li{
+  display: block;
+}
+.div-list{
+  max-width: 100%;
+}
+.ul-list>li{
+  width: 20%;
+
+}
+.welcome{
+  width: 50%;
+  color: #175863;
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 105px;
+  padding-top: 80px;
+}
+.ul-header>li{
+  background-color: #c1b49c00;
+
+}
+
+.about-us{
+  width: 25%;
+}
+.contact{
+  width: 25%;
+}
